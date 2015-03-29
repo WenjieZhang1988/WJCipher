@@ -14,6 +14,7 @@
 		188694881AC801F8005FD191 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188694871AC801F8005FD191 /* Images.xcassets */; };
 		1886948B1AC801F8005FD191 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188694891AC801F8005FD191 /* LaunchScreen.xib */; };
 		188694971AC801F8005FD191 /* WJCipherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188694961AC801F8005FD191 /* WJCipherTests.m */; };
+		188694A21AC80573005FD191 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 188694A11AC80573005FD191 /* EncryptionTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		188694901AC801F8005FD191 /* WJCipherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJCipherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188694951AC801F8005FD191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188694961AC801F8005FD191 /* WJCipherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCipherTests.m; sourceTree = "<group>"; };
+		188694A01AC80573005FD191 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		188694A11AC80573005FD191 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1886947F1AC801F8005FD191 /* AppDelegate.m */,
 				188694811AC801F8005FD191 /* ViewController.h */,
 				188694821AC801F8005FD191 /* ViewController.m */,
+				188694A01AC80573005FD191 /* EncryptionTools.h */,
+				188694A11AC80573005FD191 /* EncryptionTools.m */,
 				1886947A1AC801F8005FD191 /* Supporting Files */,
 			);
 			path = WJCipher;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188694A21AC80573005FD191 /* EncryptionTools.m in Sources */,
 				188694831AC801F8005FD191 /* ViewController.m in Sources */,
 				188694801AC801F8005FD191 /* AppDelegate.m in Sources */,
 				1886947D1AC801F8005FD191 /* main.m in Sources */,
